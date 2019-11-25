@@ -3,6 +3,9 @@ import React, { Component } from "react";
 class Counter extends Component {
   state = {
     value: this.props.value
+    // prop vs state:
+    // props - includes data that is given to a component; read only
+    // state - includes data that is local/private to component
   };
 
   handleIncrement = () => {
