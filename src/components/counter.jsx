@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+// child component
 class Counter extends Component {
   state = {
     value: this.props.value
@@ -22,6 +23,12 @@ class Counter extends Component {
             className="btn btn-secondary btn-sm"
           >
             increment
+          </button>
+          <button
+            onClick={this.props.onDelete}
+            className="btn btn-danger btn-sm m-2"
+          >
+            delete
           </button>
         </ul>
       </React.Fragment>
