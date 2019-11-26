@@ -3,6 +3,8 @@ import React, { Component } from "react";
 // child component
 class Counter extends Component {
   render() {
+    console.log("counter - rendered");
+
     return (
       <React.Fragment>
         <ul>
