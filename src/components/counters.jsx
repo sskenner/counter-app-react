@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import Counter from "./counter";
 
+// parent component
 class Counters extends Component {
   state = {
     counters: [

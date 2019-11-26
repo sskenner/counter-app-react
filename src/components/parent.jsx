@@ -1,4 +1,5 @@
 // how to pass data from parent components to child components and (vice versa) from child components to parent components using state and props.
+// **props can only pass data from parent to child.. This time, instead of passing a variable, we will be passing a function or callback to the child components
 // // https://medium.com/@learncodefromjohn/passing-data-from-parent-to-child-components-and-vice-versa-with-react-406bb4521512
 // https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Examples#Example_5:_Event_Propagation
 // https://reactjs.org/docs/events.html
